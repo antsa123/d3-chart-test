@@ -14,3 +14,12 @@ svg {
   stroke: #000;
   shape-rendering: crispEdges;
 }
+
+d3fc-group {
+  grid-template-columns: 1em auto 1fr 1em 0;
+  grid-template-rows: 0 auto 1fr 1em 0;
+}
+
+.tick text {
+  display: none;
+}
